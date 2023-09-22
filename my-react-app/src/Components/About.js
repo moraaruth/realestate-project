@@ -4,11 +4,14 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Testimonial from "./Testimonial";
 import './Style.css'
+import MobileComponent from './MobileComponent';
+import DesktopComponent from './DesktopComponent';
 
 
 function About() {
     return (
         <>
+        <div> {window.innerWidth < 768 ? <MobileComponent /> : <DesktopComponent />}</div>
             <AppNavbar />
             {/* <div className="about-container">
         <h1 className="about-title">ABOUT <br /> PERFECT <br /> HOMES </h1>
