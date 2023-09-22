@@ -1,0 +1,164 @@
+.navbar {
+    background-color: white;  /* Blue background color */
+      padding: 20px; 
+      color: white;
+    }
+    
+    .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(12, 11, 11); 
+    
+    }  
+  
+    .navbar-collapse {
+      justify-content: flex-end; /* Align links to the right */
+    }
+    
+    .navbar-toggler {
+      border: none; /* Remove border from the toggler button */
+    }
+    
+    .navbar-toggler-icon {
+      background-color: #fff; /* White color for the toggler icon */
+    }
+    
+    /* Custom style to move the brand to the far left */
+    .navbar-brand-container {
+      display: flex;
+      align-items: center;
+      margin-right: auto;
+      cursor: pointer;
+    }
+    h1 {
+      color: whitesmoke;
+    }
+    .login-link{
+      background-color: blue;
+      color: white;
+      font-weight: 800;
+      border-radius: 10%;
+      margin-right: 1rem;
+      
+    }
+    /* Style for the Navbar links */
+  .nav-link {
+    text-decoration: none; 
+    padding: 10px 20px; 
+    background-color: #333;
+    border-radius: 5px; 
+    margin-right: 30px; 
+    color: #fff;
+   font-size: 16px;
+   text-transform: uppercase; 
+  }
+  
+  /* Style for the Navbar links on hover */
+   .nav-link:hover {
+    background-color: #ffc107; 
+   
+   } 
+  .search-bar-container {
+    color: whitesmoke;
+    font-size: 24px;
+    background-color: rgb(128, 125, 125, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: 1110px;
+    align-items: center;
+    text-align: center;
+  }
+  .title {
+    color: whitesmoke;
+    font-size: 24px;
+  
+  }
+  
+  /* boxcard */
+  /* Home.css */
+  
+  .home {
+    padding: 20px;
+    text-align: center;
+  }
+  .box-card-container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: start;
+    width: 900px;
+    height: 300px;
+    margin-left: 330px;
+  }
+  
+  /* BoxCard.css */
+  
+  .box-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    padding: 20px;
+    margin: 10px;
+    text-align: start;
+    transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+  }
+  
+  .box-card:hover {
+    transform: scale(1.02); /* Increase size on hover */
+  }
+  
+  .box-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .box-card p {
+    font-size: 1rem;
+  }
+  
+  
+  .popular-card-container{
+    
+  }
+  
+  .popular-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow */
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out; /* Add a subtle hover effect */
+  }
+  
+  .popular-card:hover {
+    transform: scale(1.02); /* Increase size on hover */
+  }
+  
+  .popular-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .popular-card p {
+    font-size: 1rem;
+  }
+  
+  
+  .button-style {
+    background-color: white;
+    border: 2px solid #ffc107;
+    color: #ffc107; /* Text color */
+    padding: 7px 20px; /* Adjust padding as needed */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+    transition: background-color 0.3s ease; 
+    border-radius: 10px ;
+    text-align: center; 
+      margin-left: 43%;
+  
+  }
+  
+  .button-style:hover {
+    background-color: #ffc107; /* Change background color on hover */
+    color: white; /* Change text color on hover */
+  }
+  

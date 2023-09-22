@@ -1,0 +1,53 @@
+/* Testimonial.css */
+
+.testimonial {
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto 3fr; /* Three rows: photo, name, description */
+    gap: 5px; /* Adjust the gap as needed */
+    display: inline-block;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+    padding: 30px;
+    margin-left: 85px; /* Adjust margin as needed for horizontal centering */
+    height: 350px;
+    max-width: 350px; /* Limit the width of the card */
+  }
+  
+  .testimonial-photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 auto; 
+  }
+  
+  .testimonial-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding-top: 20px;
+  }
+  
+  .testimonial-text {
+    font-size: 16px;
+    margin: 0;
+    padding: 15px;
+  }
+  
+  .testimonial-role {
+    font-style: italic;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .testimonial-content {
+    /* height: auto;  */
+    width: 350px; /* Adjust the width of the card */
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: 5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  

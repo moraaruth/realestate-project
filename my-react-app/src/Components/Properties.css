@@ -1,0 +1,87 @@
+/* Your CSS file */
+
+/* Style for the property card container */
+.prperty-card {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    margin: 20px auto;
+      
+    }
+  
+    .property-group {
+      display: flex;
+      justify-content: start; /* Ensure cards are evenly spaced */
+      /* flex-wrap: wrap;  */
+      margin-left: 155px;
+      gap: 10px;
+      max-width: 1200px; 
+  
+    }
+    
+    /* Style for the individual BoxCard components */
+    .box-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      width: 350px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.2s ease-in-out;
+      height: 850px;
+    }
+    
+    .box-card:hover {
+      transform: translateY(-5px); /* Slight upward translation on hover */
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Enhanced box-shadow on hover */
+    }
+    
+    /* .box-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+     */
+    /* Style for the title in BoxCard */
+    .box-card h2 {
+      font-size: 20px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+    
+    /* Style for the content in BoxCard */
+    .box-card p {
+      font-size: 16px;
+      margin: 0;
+      color: #666;
+    }
+    
+    /* Style for the 'For Rent' and 'For Sale' headings */
+    h1 {
+      font-size: 28px;
+      color: #333;
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+    /* Your CSS file */
+  
+  .header {
+    text-align: center; /* Center-align text within the div */
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+  }
+  

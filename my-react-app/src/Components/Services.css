@@ -1,0 +1,108 @@
+
+
+/* Style for the header section */
+.header {
+    text-align: center;
+    background-color: #50C878; /* Background color for the header */
+    color: #fff; /* Text color for the header */
+    padding: 40px 0;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .header p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Style for the container of BoxCard components */
+  .box-card-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important; 
+    gap: 20px;
+    padding: 20px; /* Add some padding for better spacing */
+    background-color: #f0f0f0; /* Background color for the container */
+  }
+  
+  /* Style for individual BoxCard components */
+  .box-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    /* margin-left: 150px; */
+    width: calc(33.33% - 10px); /* Adjust card width for responsive layout */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease-in-out;
+    height: auto;
+  }
+  
+  .box-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .box-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Style for BoxCard title */
+  .box-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Style for BoxCard description */
+  .box-card p {
+    font-size: 16px;
+    margin: 0;
+    color: #666;
+  }
+  /* .box-card-image {
+  width: 200px;
+  max-height: 150px; 
+ 
+} */
+  /* Style for the "Learn more" button */
+  .box-card-container button {
+    background-color: #50C878; /* Background color for the button */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .box-card-container button:hover {
+    background-color: #4aaf6d; /* Hover background color for the button */
+  }
+
+
+/* Style for the "Home / Services" link */
+.services-link {
+    text-decoration: none; /* Remove underlines */
+    color: #333; /* Set the text color */
+    font-weight: bold; /* Optionally, make the text bold */
+  }
+  
+  /* Style for the link on hover (optional) */
+  .services-link:hover {
+    color: #555; /* Change the text color on hover */
+  }
+
+
+/* Style for the "Services" text */
+.greyed-text {
+    color: #888; /* Set the text color to grey */
+    font-weight: 300; /* Adjust font weight as needed */
+  }
+  

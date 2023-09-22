@@ -1,0 +1,46 @@
+/* Popular.css */
+
+.popular-card {
+    display: inline-block; /* Display the cards horizontally */
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    width: 400px; /* Set a fixed width for each card */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis (...) for overflow text */
+  }
+  .popular-card-container {
+    display: flex;
+    overflow: hidden;
+    animation: scroll 40s steps(10) infinite;
+
+
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+ 
+
+
+  .popular-card-image {
+    width: 100%; /* Set the width of the image to 100% */
+    max-height: 400px; /* Set the maximum height for the image */
+    object-fit: cover; /* Ensure the image covers the container while maintaining aspect ratio */
+  }
+  
+  .popular-card p {
+    font-size: 1rem;
+    margin: 5px 0; /* Add some margin between paragraphs */
+  }
+  

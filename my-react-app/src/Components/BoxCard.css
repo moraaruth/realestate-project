@@ -1,0 +1,41 @@
+/* BoxCard.css */
+
+.box-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+    /* margin: 10px; */
+    text-align: center;
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .box-card:hover {
+    transform: scale(1.02); 
+  }
+  
+  .box-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .box-card p {
+    font-size: 1rem;
+  }
+  .box-card-image {
+    width: 200px;
+    max-height: 150px; 
+   
+  }
+  /* BoxCard.css */
+  
+  /* Style for the "Learn more" link */
+  .blue-button {
+    color: #ffc107;
+    text-decoration: none;
+    align-items:left;
+    text-align: left;
+  }
+  
+  
+  
