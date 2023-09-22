@@ -105,4 +105,50 @@
     color: #888; /* Set the text color to grey */
     font-weight: 300; /* Adjust font weight as needed */
   }
+  @media screen and (max-width: 768px) {
+    h2 {
+      font-size: 1.2rem; /* Adjust font size for smaller screens */
+    }
   
+    h3 {
+      margin-left: 0; /* Reset margin for smaller screens */
+      font-size: 18px; /* Adjust font size for smaller screens */
+    }
+    .box-card-container1 {
+        flex-direction: column; /* Stack items vertically */
+       
+        align-items: left; /* Center align items */
+        width: 1200px;
+      }
+    
+      .about-image {
+        padding: 0; /* Remove padding around image */
+        margin-top: 20px; /* Add some spacing between text and image */
+      }
+  
+    .form {
+      /* Add responsive styles for .form on smaller screens */
+      margin-left: 10%;
+    }
+  
+    /* Add more responsive styles as needed for smaller screens */
+  }
+  
+  /* Responsive styles for larger screens (e.g., desktops) */
+  @media screen and (min-width: 1200px) {
+    h2 {
+      font-size: 2rem; /* Adjust font size for larger screens */
+    }
+  
+    h3 {
+      margin-left: 20%;
+      font-size: 24px;
+    }
+ 
+    .form {
+      /* Add responsive styles for .form on larger screens */
+      margin-left: 30%; /* Adjust margin for larger screens */
+    }
+  
+    /* Add more responsive styles as needed for larger screens */
+  }

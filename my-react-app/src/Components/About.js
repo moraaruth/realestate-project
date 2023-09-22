@@ -4,14 +4,13 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import Testimonial from "./Testimonial";
 import './Style.css'
-import MobileComponent from './MobileComponent';
-import DesktopComponent from './DesktopComponent';
+
 
 
 function About() {
     return (
         <>
-        <div> {window.innerWidth < 768 ? <MobileComponent /> : <DesktopComponent />}</div>
+
             <AppNavbar />
             {/* <div className="about-container">
         <h1 className="about-title">ABOUT <br /> PERFECT <br /> HOMES </h1>
@@ -47,32 +46,32 @@ function About() {
 
             </div>
             <br /><br />
-            <div style={{ backgroundColor: "#f6f6f3", padding: "10px", fontSize: "24px"}}>
-                <h3 style={{ padding: "10px", fontSize: "45px"}}>The Team</h3>
+            <div style={{ backgroundColor: "#f6f6f3", padding: "10px", fontSize: "24px" }}>
+                <h3 style={{ padding: "10px", fontSize: "45px" }}>The Team</h3>
 
-            <Testimonial
-            style={{ backgroundColor: '#f6f6f3' }}
-          photoUrl='https://cdn.pixabay.com/photo/2012/04/18/23/36/boy-38262_640.png'
-          name='Dakari'
-          testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?'
-          role='Manager'
+                <Testimonial
+                    style={{ backgroundColor: '#f6f6f3' }}
+                    photoUrl='https://cdn.pixabay.com/photo/2012/04/18/23/36/boy-38262_640.png'
+                    name='Dakari'
+                    testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?'
+                    role='Manager'
 
-        />
-        <Testimonial
-          photoUrl='https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_640.png'
-          name='Imani'
-          testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias? '
-          role='Manager'
+                />
+                <Testimonial
+                    photoUrl='https://cdn.pixabay.com/photo/2013/07/13/10/07/man-156584_640.png'
+                    name='Imani'
+                    testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias? '
+                    role='Manager'
 
-        />
-        <Testimonial
-          photoUrl='https://cdn.pixabay.com/photo/2013/07/13/10/24/woman-157149_640.png'
-          name='Ruth'
-          testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?'
-          role='Manager'
+                />
+                <Testimonial
+                    photoUrl='https://cdn.pixabay.com/photo/2013/07/13/10/24/woman-157149_640.png'
+                    name='Ruth'
+                    testimonial='Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere officiis inventore cumque tenetur laboriosam, minus culpa doloremque odio, neque molestias?'
+                    role='Manager'
 
-        />
-        </div><br />
+                />
+            </div><br />
 
             <Footer />
         </>
